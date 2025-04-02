@@ -1,0 +1,190 @@
+
+* { /* ALL ELEMENTS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0E8DD;
+    text-colour: #60849C;
+    }
+    .body {
+    background-color: #F0E8DD;
+    font-family: Montserrat, Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 200vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F0E8DD;
+    }
+    .navbar-brand {
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: #E0D7CE;
+    color: #60849C; 
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 30px;
+    }
+    
+    .navbar a{
+        display: block;
+    }
+
+    .back-btn {
+     font-family: Montserrat, Arial, sans-serif;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: bold;
+     padding: 0;
+     }
+    .gallery-container { 
+        display: flex; 
+        justify-content: center; 
+        gap: 15px; 
+    }
+    .gallery-container img { 
+        width: 200px; 
+        border-radius: 10px; 
+    }
+    form { 
+        display: flex; 
+        flex-direction: column; 
+        max-width: 400px; 
+        margin: auto; 
+    }
+    input, textarea { 
+        margin: 10px 0; 
+        padding: 10px; 
+        width: 100%; 
+        border: 1px solid #ccc; 
+    }
+    .btn { 
+        padding: 10px 20px; 
+        background: #E0D7CE; 
+        color: #60849C;
+        font-weight: bold; 
+        font-family: montserrat, arial, sans-serif;
+        text-decoration: none; 
+        font-size: 20px;
+        margin: 30px; 
+        margin-top: 10px;
+        display: flex; 
+        justify-content: center;
+        cursor: pointer; 
+    }
+    .gallery {
+    margin: auto; 
+    justify-content: center;
+    }
+    .home h2{
+        font-family: Montserrat, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-left: 25px;
+        color: #60849C;
+    }
+    .home p{
+        margin-left: 25px;
+        font-size: 20px;
+        font-family: Montserrat, arial, sans-serif;
+        padding-top: 5px;
+        color: #60849C;
+    }
+    .gallery h2{
+        padding-top: 30px;
+        font-family: montserrat, arial, sans-serif;
+        font-size: 20px;
+        display: flex; 
+        justify-content: center;
+        padding-bottom:30px;
+        color: #60849C;
+    }
+   
+    .gallery-header-class {
+        font-family: Montserrat, arial, sans-serif;
+        font-size: 20px;
+    }
+    .div class form-element {
+        font-family: montserrat, arial, sans-serif
+    }
+    .section h2 {
+        color: #60849C;
+    }
+
+    .gallery h2 {
+        justify-content: left;
+        padding: 25px;
+        font-size: 25px;
+    }
+    .gallery p {
+        justify-content: left;
+        padding: 20px;
+        font-family: montserrat, arial, sans-serif;
+        color: #60849C;
+      margin-left: 25px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+
+
+/* style the form container */ 
+.form-element {
+    max-width: 400px;
+    display: block;
+    font-weight: bold;
+    font-family: montserrat, arial, sans-serif;
+}
+.form-element label {
+    font-weight: bold;
+    font-family: montserrat, arial, sans-serif;
+    color: #60849C;
+  
+}
+
+.form-element input,
+.form-element textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #BDC8CE;
+}
+.form-element button {
+width: 100%;
+background-color: #E3DAD1;
+padding: 10px;
+cursor: pointer;
+border-radius: 5px;
+border-color: #60849C;
+font-family: montserrat, arial, sans-serif;
+font-weight: bold;
+color: #60849C;
+}
+.form-element button:hover {
+    background-color: #60849C;
+    color: #BDC8CE;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
+.gallery-container img {
+    width: 100%;
+max-width: 300px;
+border-radius: 5px;
+aspect-ratio: 1 / 1;
+}
+
+
+
+    footer {
+        color: #60849C;
+        text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    font-family: montserrat, arial, sans-serif;
+    padding-top: 70px;
+    }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Emma's Portfolio </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- links the css file to this page -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="index.html" class="navbar-brand">
+            Emma's Portfolio
+        </a>
+    </nav>
+
+    <div class="buttons">
+       
+        <a href="gallery.html" class="btn">Gallery</a>
+        
+      
+    </div>
+
+    <!-- WEBSITE INTRO -->
+   
+    <!-- WEBSITE CONTAINER -->
+    <div class="container">
+        
+        <!-- UNIQUE PAGE CONTENT -->
+        <main class="main-content">
+            
+            
+
+<!--
+Froms need a secondary language to work (PHP, Python, .NET). It is not possible to send a contact form with plain HTML.
+Instead, we'll use the email client.
+-->
+<form action="mailto:info@website.com" method="post" enctype="text/plain">
+    <!--
+     All types of user input require a name and ID attribute that are unique to the page.
+     label for= links with input id= 
+     -->
+    <div class="form-element">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Jane Smith" required>
+    </div>
+    
+    <div class="form-element">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="info@email.com" required>
+    </div>
+    <div class="form-element">
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+            <option value="Share a story">Share a story</option>
+            <option value="Send me feedback">Send me feedback</option>
+        </select>
+    </div>
+    <div class="form-element">
+        <textarea name="message" id="message" rows="10" cols="50" placeholder="Your message goes here" minlength="20"></textarea>
+    </div>
+<!--
+    The two functional buttons for a form are submit and reset. 
+-->
+    <div class="form-element">
+        <button type="submit">Send</button> 
+        <button type="reset">Reset</button>
+    </div>
+</form> 
+            </section>
+            
+        </main>
+        
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="website-footer">
+        
+        <div class="container">
+            
+          
+          
+            
+            <p class="copyright">
+                &copy; Emma's Portfolio
+            </p>
+            
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
